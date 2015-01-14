@@ -11,6 +11,7 @@ public class UDPsender {
 			InetSocketAddress sa = new InetSocketAddress("127.0.0.1",3000);
 			DatagramPacket paquet = new DatagramPacket(data,data.length,sa);
 			s.send(paquet);
+			//hi you test
 		}catch(Exception ex){
 			ex.printStackTrace();
 			System.exit(1);
